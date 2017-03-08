@@ -13,6 +13,7 @@
 		146597721E6F9EA700C5A5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146597701E6F9EA700C5A5E8 /* Main.storyboard */; };
 		146597741E6F9EA700C5A5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146597731E6F9EA700C5A5E8 /* Assets.xcassets */; };
 		146597771E6F9EA700C5A5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146597751E6F9EA700C5A5E8 /* LaunchScreen.storyboard */; };
+		146597811E6FA95600C5A5E8 /* TouchIDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 146597801E6FA95600C5A5E8 /* TouchIDHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		146597731E6F9EA700C5A5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146597761E6F9EA700C5A5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		146597781E6F9EA700C5A5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1465977F1E6FA95600C5A5E8 /* TouchIDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDHandler.h; sourceTree = "<group>"; };
+		146597801E6FA95600C5A5E8 /* TouchIDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		1465977E1E6FA47D00C5A5E8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1465977F1E6FA95600C5A5E8 /* TouchIDHandler.h */,
+				146597801E6FA95600C5A5E8 /* TouchIDHandler.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1465976F1E6F9EA700C5A5E8 /* ViewController.m in Sources */,
+				146597811E6FA95600C5A5E8 /* TouchIDHandler.m in Sources */,
 				1465976C1E6F9EA700C5A5E8 /* AppDelegate.m in Sources */,
 				146597691E6F9EA700C5A5E8 /* main.m in Sources */,
 			);
