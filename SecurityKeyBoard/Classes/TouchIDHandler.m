@@ -9,5 +9,7 @@
 #import "TouchIDHandler.h"
 
 @implementation TouchIDHandler
-
+- (void)sayHello{
+    NSLog(@"sayhello");
+}
 @end

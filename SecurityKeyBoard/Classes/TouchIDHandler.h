@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface TouchIDHandler : NSObject
-
+- (void)sayHello;
 @end
